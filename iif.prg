@@ -121,4 +121,4 @@ Endscan
 
 Close Databases All
 
-*.*
+*.*.*
