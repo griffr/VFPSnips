@@ -87,7 +87,7 @@ lnerror = loini.getinientry(@lcpassword,"EMAIL","PASSWORD",lcprogrampath+"\hmrec
 lnerror = loini.getinientry(@lcsendto,"EMAIL","SENDTO",lcprogrampath+"\hmrecost.ini")
 
 lomailman = Createobject('Chilkat_9_5_0.MailMan')
-lnsuccess = lomailman.unlockcomponent("CKCACOMAILQ_UaVyPDMD2C2A")
+lnsuccess = lomailman.unlockcomponent("")
 lomailman.smtphost = "smtp.office365.com"
 lomailman.starttls = 1
 lomailman.smtpport = 25
