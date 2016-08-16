@@ -149,17 +149,9 @@ FOR EACH nrow IN lasheets
 		ENDWITH
 	ENDIF
 
-
-
-
-
 ENDFOR
 
-
 *
-
-
-
 
 */TIDY TABLES*/
 USE nightprice EXCLUSIVE ALIAS nightpricestidy
