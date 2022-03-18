@@ -9,7 +9,7 @@ SELECT b
 **point to live cname file
 USE "C:\ProgramData\Pegasus\O3 Server VFP\Data\z_dsprod.dbf" ALIAS dsprod
 SET RELATION TO dsprod.ds_cnref INTO cname
-BROWSE noca
+
 replace ALL ds_cost WITH cname.cn_cost
 ? "DONE"
 **shows live cname after update so can eyeball a memo
