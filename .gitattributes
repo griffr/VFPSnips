@@ -15,6 +15,7 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+*.* linguist-language=VFP
 
 * linguist-vendored
 *.prg linguist-vendored=false
